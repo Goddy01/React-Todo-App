@@ -62,15 +62,6 @@ header input {
   background: white;
   margin-bottom: 20px;
 }
-li {
-  position: relative;
-}
-
-li i {
-  display: flex;
-  position: absolute;
-  right: 30px;
-}
 
 p {
   font-size: 0.9em;
@@ -80,6 +71,10 @@ p {
   display: flex;
   flex-direction: column;
   gap: 14px;
+}
+
+.actionButtons {
+  padding: 6px;
 }
 
 .todoItem {
