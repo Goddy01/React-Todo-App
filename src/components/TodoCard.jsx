@@ -4,7 +4,7 @@ export default function TodoCard(props) {
   let {children, handleDeleteTodo, todoIndex, handleEditTodo} = props
   return (
       <li className='todoItem'>
-        {children}
+        {todoIndex + 1}. {children}
         <div className='actionsContainer'>
         <button onClick={() => {
           handleEditTodo(todoIndex)
